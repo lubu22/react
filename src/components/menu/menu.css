@@ -1,0 +1,91 @@
+.menu {
+    background: #A8D1E7;
+    position: relative;
+    z-index: 1000;
+}
+
+.menu-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu__item {
+    position: relative;
+}
+
+.menu-list-item .menu__item:nth-last-child(1) {
+    background: #384685;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.menu__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.menu__text:hover {
+    color: #999999;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.text__where__show {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.block-drop-down {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 999;
+    top: 40px;
+    /* вклчюение отключение дро даун*/
+    display: none;
+}
+
+.drop-down-list {
+}
+
+.drop-down__item {
+
+}
+
+.drop-down__text {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--black-color);
+    text-decoration: none;
+    transition: all 0.3s;
+    padding: 10px 30px;
+    white-space: nowrap;
+}
+
+.drop-down__item+.drop-down__item:hover {
+    background: #F4F4F4;
+}
+
+.drop-down__text:hover {
+    color: #384685;
+}

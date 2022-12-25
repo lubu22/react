@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+
+import HeaderUp from './components/header/header-up';
+import HeaderInfo from './components/header/header-info';
+import Menu from './components/menu/menu';
+import Slider from './components/slider/slider';
+import Advantages from './components/advantages/advantages';
+import Catalog from './components/catalog/catalog';
+import PopularProducts from './components/popular-products/popular-products';
+import PopularCategory from './components/popular-category/popular-category';
+import ProductsDiscounts from './components/products-discounts/product-discounts';
+import OurWorks from './components/our-works/our-works';
+import Contacts from './components/contacts/contacts';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HeaderUp />
+      <HeaderInfo />
+      <Menu />
+      <Slider />
+      <Advantages />
+      <Catalog />
+      <PopularProducts />
+      <PopularCategory />
+      <ProductsDiscounts />
+      <OurWorks />
+      <Contacts />
     </div>
   );
 }

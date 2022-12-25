@@ -1,0 +1,136 @@
+.header-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    margin: 25px 35px 25px 0;
+}
+
+.header-adress {
+    display: flex;
+    align-items: center
+}
+
+.block-adress {
+    /* margin-left: 50px; */
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    /* margin-left: 67px; */
+}
+
+.search__head {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 12px 25px;
+    border: 1px solid #A8D1E7;
+    border-radius: 25px;
+    width: 296px;
+}
+
+.search__head+span {
+    position: relative;
+    top: 4px;
+    left: -35px;
+}
+
+.block-number {
+    display: flex;
+    align-items: center;
+}
+
+.items-number {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 72px; */
+    align-content: flex-end;
+}
+
+.number__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1D1818;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.btn__callback {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #E13B3F;
+    background: transparent;
+    border: 1px solid #E13B3F;
+    border-radius: 5px;
+    padding: 5px 25px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.adress__text {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+
+}
+
+.header-profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-items {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 28px;
+}
+
+.adress__scheme {
+    display: block;
+
+}
+
+.adress-shema__btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #E13B3F;
+}
+
+.login__text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #1D1818;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.count__favorites {
+    background: #E13B3F;
+    border-radius: 7px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 1px 13px;
+    margin-left: 14px;
+}
+
+.block-favourites {
+    text-align: center;
+}

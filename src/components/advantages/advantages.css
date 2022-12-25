@@ -1,0 +1,40 @@
+.block-advantages {
+    margin-bottom: 62px;
+}
+
+.title__advantages {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.advantages-block-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-item {
+    display: flex;
+    background: #F4F4F4;
+    border-radius: 5px;
+    padding: 25px;
+    align-items: center;
+}
+.advantages-item > span {
+    margin-right: 30px;
+
+}
+.advantages-item > div {
+
+}
+
+.advantages__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}

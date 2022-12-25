@@ -1,0 +1,50 @@
+.main-header-up {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.header-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-sity {}
+
+.header-special {
+    display: flex;
+    align-items: center;
+}
+
+.block-city {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.cities {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--black-color);
+}
+
+.special-heroes {
+    display: flex;
+}
+
+.special-heroes:first-child {
+    margin-left: 35px;
+}
+
+.special__hero {
+    margin: 21px 0px 16px 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.special__hero>a {
+    text-decoration: none;
+    color: var(--black-color);
+}

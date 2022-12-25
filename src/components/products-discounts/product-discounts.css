@@ -1,0 +1,106 @@
+.block-products-discount {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+.popular-discount__btn {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+.popular-discount__btn:hover {
+    background: #384685;
+
+}
+
+.btn__prev__discount {
+    position: absolute;
+    z-index: 1001;
+    left: -35px;
+    top: 50%;
+
+}
+
+.btn__prev__discount:hover::after {
+    background-color: white;
+
+}
+
+.btn__prev__discount:hover::before {
+    background-color: white;
+
+}
+
+.btn__prev__discount::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 40%;
+    left: 30%;
+    background-color: #384685;
+    transform: rotate(135deg);
+    transition: all 0.3s;
+}
+
+.btn__prev__discount::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 60%;
+    left: 30%;
+    background-color: #384685;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-135deg);
+    transition: all 0.3s;
+}
+
+.btn__next__discount {
+    position: absolute;
+    z-index: 1001;
+    right: -35px;
+    top: 50%;
+}
+
+.btn__next__discount::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 40%;
+    left: 40%;
+    background-color: #384685;
+    transform: rotate(45deg);
+    transition: all 0.3s;
+}
+
+.btn__next__discount::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    top: 60%;
+    left: 40%;
+    background-color: #384685;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+    transition: all 0.3s;
+}
+
+.btn__next__discount:hover::after {
+    background-color: white;
+}
+
+.btn__next__discount:hover::before {
+    background-color: white;
+}

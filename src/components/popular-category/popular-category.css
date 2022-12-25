@@ -1,0 +1,27 @@
+.block-popular-category {
+    display: flex;
+    gap: 15px 34px;
+    flex-wrap: wrap;
+    margin-bottom: 76px;
+}
+
+.popular-category__btn {
+    border: 1px solid #384685;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #384685;
+    background: #FFFFFF;
+    text-transform: uppercase;
+    padding: 11px 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.popular-category__btn:hover {
+    background: #384685;
+    border-radius: 5px;
+    color: #FFFFFF;
+}

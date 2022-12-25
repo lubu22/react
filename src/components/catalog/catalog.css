@@ -1,0 +1,34 @@
+.catalog {
+    position: relative;
+}
+
+.title__catalog {}
+
+.block-catalog-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.catalog-item img {
+    border-radius: 10px;
+}
+.catalog__text__img {
+    position: absolute;
+    background: #384685;
+    border-radius: 0px 0px 0px 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    left: 0;
+    bottom: 6px;
+    padding: 8px 16px;
+}
